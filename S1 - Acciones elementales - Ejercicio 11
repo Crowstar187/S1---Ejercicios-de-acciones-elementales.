@@ -1,0 +1,21 @@
+Algoritmo Ejercicio11
+	//Inicio, definir variables//
+	definir num1 Como real
+	definir U, D, C, UM Como entero
+	Escribir "Ingrese un numero de cuatro dígitos:"
+	Leer num1
+	si num1>=1000 y num1<=9999 Entonces
+		U=trunc(num1%10)
+		num1=trunc(num1/10)
+		D=trunc(num1%10)
+		num1=trunc(num1/10)
+		C=trunc(num1%10)
+		UM=trunc(num1/10)
+		Escribir "La unidad del número introducido es:",U
+		Escribir "La decena del número introducido es:",D
+		Escribir "La centena del número introducido es:",C
+		Escribir "La unidad de mil del número introducido es:",UM
+	SiNo
+	Escribir "El valor ingresado no tiene 4 dígitos."	
+	FinSi
+FinAlgoritmo
