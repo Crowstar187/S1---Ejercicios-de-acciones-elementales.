@@ -1,0 +1,23 @@
+Algoritmo ejercicio9
+	//Inicio, declarar variables//
+	Definir d1, d2, d3, d4 Como Real
+	Escribir "Ingrese el primer digito:"
+	leer d1
+	Escribir "Ingrese el segundo digito:"
+	Leer d2
+	Escribir "Ingrese el tercer digito:"
+	Leer d3
+	Escribir "Ingrese el cuarto digito:"
+	Leer d4
+	// Proceso y salida//
+	si d1 <= 1 y d1 >= 0 y d2 <= 1 y d2 >= 0 y d3 <= 1 y d3 >= 0 y d4 <= 1 y d4 >= 0 Entonces
+		si (d1+d2+d3+d4)%2=0 Entonces
+			Escribir "0 / Par"
+		SiNo
+			Escribir "1 / Impar"
+		FinSi
+	SiNo
+		Escribir "No introdujo valores entre 1 y 0"
+
+	FinSi
+FinAlgoritmo
