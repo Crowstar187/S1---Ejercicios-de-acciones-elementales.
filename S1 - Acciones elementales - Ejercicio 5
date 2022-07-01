@@ -1,16 +1,16 @@
 Algoritmo ejercicio5
 	Definir  a, b, c, respuesta1, respuesta2 Como Real
-	//Introdución de datos//
+	
 	Escribir "Introduzca el primer número:"
 	Leer a
 	Escribir "Introduzca el segundo número:"
 	Leer b
 	Escribir "Introduzca el tercer número:"
 	Leer c
-	//Proceso//
+
 	respuesta1= (-b+(raiz((b*b)-4*(a*c))))/(2*a)
 	respuesta2= (-b-(raiz((b*b)-4*(a*c))))/(2*a)
-	//Salida de datos//
+	
 	Escribir "La resolvente da como primer resultado:",respuesta1
 	Escribir "La resolvente da como segundo resultado:",respuesta2
 FinAlgoritmo
