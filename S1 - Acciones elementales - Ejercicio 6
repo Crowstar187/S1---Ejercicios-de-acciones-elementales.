@@ -1,0 +1,12 @@
+Algoritmo Ejercicio6
+	Definir  a, b, c Como Real
+	//Introdución de datos//
+	Escribir "Introduzca el cateto a:"
+	Leer a
+	Escribir "Introduzca el cateto b:"
+	Leer b
+	//Proceso//
+	c= rc((a*a)+(b*b))
+	//Salida de datos//
+	Escribir "La hipotenusa del triangulo rectangulo es:",c
+FinAlgoritmo
