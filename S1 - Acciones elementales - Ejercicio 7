@@ -1,0 +1,10 @@
+Algoritmo ejercicio7
+	Definir a Como Real
+	Escribir "Ingresar un número:"
+	Leer a
+	si a%2 = 0 Entonces
+		Escribir "0"
+	SiNo
+		Escribir "1"
+	FinSi
+FinAlgoritmo
