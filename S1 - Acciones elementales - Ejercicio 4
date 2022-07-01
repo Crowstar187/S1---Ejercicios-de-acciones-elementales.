@@ -1,0 +1,21 @@
+Algoritmo Ejercicio4
+	Definir  n1, n2, suma, resta, multiplicacion, division Como Real
+	Definir modulo como numerica
+	//Introdución de datos//
+	Escribir "Introduzca el primer número:"
+	Leer n1
+	Escribir "Introduzca el segundo número:"
+	Leer n2
+	//Proceso//
+	suma= n1+n2
+	resta= n1-n2
+	multiplicacion= n1*n2
+	division= n1/n2
+	modulo= n1 mod n2
+	//Salida de datos//
+	Escribir "La suma de ambos numeros da como resultado: ",suma
+	Escribir "La resta de ambos numeros da como resultado: ",resta
+	Escribir "La multiplicación de ambos numeros da como resultado: ",multiplicacion
+	Escribir "La división de ambos numeros da como resultado: ",division
+	Escribir "El módulo de ambos numeros da como resultado: ",modulo
+FinAlgoritmo
